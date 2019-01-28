@@ -229,7 +229,7 @@ def main():
 
 if __name__ == '__main__':
  if not 'kali' in platform():
-  exit('Kali Linux required')
+  print("OS not kali. Continuing..")
 
  if os.getuid():
   exit('root access required')
